@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: "Cinzel", serif;
+}
+#top-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(noor-mahal.jpg);
+    background-size: cover;
+}
+.topstyle{
+    margin: 5px;
+    border-radius: 20px;
+    padding: 20px;
+    color: whitesmoke;
+    background: #180808fc;
+}
+.main-text{
+    width: 500px;
+    text-align: center;
+}
+.separate-background{
+    padding-top: 50px;
+    background: linear-gradient(#86CB92,white);
+}
+#mid-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.activity{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    padding: 10px;
+    width: 400px;
+}
+.midpic{
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+#bottom-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#card-section{
+    width: 700px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background: #344e41;
+    color: beige;
+    border-radius: 15px;
+    border-bottom: 12px solid yellow;
+}
+.last-line{
+    padding: 20px;
+}
